@@ -29,12 +29,12 @@
 
             display-name = "default";
             bindings = <
-&kp TAB         &kp LEFT_WIN    &to 1
-&kp BACKSPACE   &kp UP_ARROW    &kp ENTER
-&kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+&kp F19  &kp F20  &kp F21
+&kp F16  &kp F17  &kp F18
+&kp F13  &kp F14  &kp F15
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp F23 F22>;
         };
 
         function_layer {
